@@ -1,6 +1,10 @@
+/*
+
+ */
 fun main() {
 
     val a1 = 1..10
+    println("a1 : $a1") // a1 : 1..10
     for (item in a1) {
         println("a1 : $item")
     }
